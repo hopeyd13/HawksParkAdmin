@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>HawksPark</title>
+        <link rel = "stylesheet" type = "text/CSS" href = "./includes/bootstrap.css">
+    </head>
+
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <img src = "./includes/favicon.ico" id = "logo" height = "40" width = "40">
+          <a class="navbar-brand" href="./home.html">HawksPark</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarColor02">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="./home.html">Parking Information <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./change.html">Change Parking Availability</a>
+                </li>
+              </ul>
+                <a href = "./login.html" class="btn btn-secondary my-2 my-sm-0" id = "loginb" role = "button">Log In</a>
+            </div>
+          </nav>
+
+          <h1>Welcome to HawksPark</h1><br>
+          <h2>Check Parking Status</h2><br>
+
+          <div class = "form-group" id = "lotdrop">
+            <label for = "lots">Parking Lot:</label>
+            <select class = "form-control" id = "lots">
+              <option value = "13">Lot 13</option>
+              <option value = "13">Lot 14</option>
+              <option value = "13">Lot 15</option>
+              <option value = "13">Lot 18</option>
+              <option value = "13">Lot 19</option>
+              <option value = "13">Lot 21</option>
+              <option value = "13">Lot 22</option>
+            </select><br>
+            <input href = "./results.html" type = "submit" class = "btn btn-primary" name = "submit" value = "Submit">
+          </div>
+
+    </body>
+    
+
+</html>
